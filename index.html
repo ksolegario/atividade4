@@ -3,51 +3,95 @@
     <head>
         <title>UM POUCO DOS MEUS GOSTOS</title>
         <style>
-            ul,h2,ol,a {font-family: Arial, Helvetica, sans-serif;}
-            img {
-                height: 250px;
-                width: 250px;
+            ul {
+                list-style-type: disc;
+                list-style-position: inside;
+                font-family: Arial, Helvetica, sans-serif;
             }
-            h2 {color: red;}
+            li, h2, ul {
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+            }
+            h2 {
+                color: darkgoldenrod;
+
+            }
             
+            .figuras {
+                display: flex;
+                flex-direction: row;
+            }
+            .figuras figure img{
+                height: 200px;
+                width:  200px;
+            }
+            .figuras figure{
+                margin: auto;
+            }
+            .figuras figure figcaption{
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+                text-align: center;
+            }
+            a:link{
+                text-decoration: none;
+                color: blue;
+            }
+            a:visited{
+                color: red;
+            }
+            a:hover{
+                color: green;
+            }
+        
         </style>
     </head>
     <body>
-        
-    </div><div id="inicio">
-
-        <h2>MEUS HOBBIES:</h2>
-        <ul>
-            <li>MUSICAS</li>
-            <li>INSTRUMENTOS</li>
+        </div> <div id =" inicio ">
             
-        </ul>
+        <h2>MEUS HOBBIES:</h2>
+        <header>
+            <ul>
+                <li>MÚSICAS</li>
+                <li>INSTRUMENTOS</li>
+            </ul> 
+        </header>
         <h2>INSTRUMENTOS QUE MAIS GOSTO:</h2>
-        <ol>
-            <li>SAXFONE</li>
-            <img src="imagem/download.jpg" alt="Imagem Saxfone">
-            <li>BATERIA</li>
-            <img src="imagem/bateria.jpg" alt="Imagem Bateria">
-            <li>VIOLAO</li>
-            <img src="imagem/violao.jpg" alt="Imagem Violao">
-            <li>TECLADO</li>
-            <img src="imagem/tecaldo.jpg" alt="Imagem Teclado">
-        </ol>
-        <h2>LINKS DAS MUSICAS QUE MAIS OUÇO:</h2>
+        <section class="figuras">
+            <figure>
+                <figcaption>SAXFONE</figcaption>
+                <img src="imagem/download.jpg" alt="SAXFONE">
+            </figure>
+            <figure>
+                <figcaption>BATERIA</figcaption>
+                <img src="imagem/bateria.jpg" alt="BATERIA">
+            </figure>
+            <figure>
+                <figcaption>VIOLÃO</figcaption>
+                <img src="imagem/violao.jpg" alt="VIOLÃO">
+            </figure>
+            <figure>
+                <figcaption>TECLADO</figcaption>
+                <img src="imagem/tecaldo.jpg" alt="TECLADO">
+            </figure>
+
+
+        </section>
+        <h2>LINKS DAS MÚSICAS QUE MAIS OUÇO:</h2>
         <ul>
-            <li><a href="https://youtu.be/bQ7m12FmtRQ">Paulo Neto - Nunca Foi Sorte</a></li>
-            <li><a href="https://youtu.be/gs-V3_9eqX8">Paulo Neto - Tua Presença</a></li>
-            <li><a href="https://youtu.be/YkM1Lx2KyWo">Jessé Aguiar | Paz da Minha Alma</a></li>
-            <li><a href="https://youtu.be/D0GIW5Cp18s">VICTIN, Bia Jordão - Eu Te Amo</a></li>
-            <li><a href="https://youtu.be/rBVjbjGVVjo">Cia. SALT - Quero Conhecer Jesus</a></li>
-            <li><a href="https://youtu.be/ozBlvwVizXI">ENCHE-ME</a></li>
+            <li> <a href =" https://youtu.be/bQ7m12FmtRQ " >Paulo Neto - Nunca Foi Sorte </a> </li>
+            <li> <a href =" https://youtu.be/gs-V3_9eqX8 " >Paulo Neto - Tua Presença </a> </li>
+            <li> <a href =" https://youtu.be/YkM1Lx2KyWo " >Jessé Aguiar | Paz da Minha Alma </a> </li>
+            <li> <a href =" https://youtu.be/D0GIW5Cp18s " >VICTIN, Bia Jordão - Eu Te Amo </a> </li>
+            <li> <a href =" https://youtu.be/rBVjbjGVVjo " >Cia. SALT - Quero Conhecer Jesus </a> </li>
+            <li> <a href =" https://youtu.be/ozBlvwVizXI " >ENCHE-ME </a> </li>
         </ul>
         <h2>MINHA ROTINA DIÁRIA:</h2>
         <ul>
-            <a href="minharotina.html">MINHA ROTINA</a></li>
+            <li><a href =" minharotina.html ">MINHA ROTINA</a> </li>
         </ul>
         <ul>
-            <a href="#inicio">VOLTAR PARA O INICIO</a>
+            <li><a href =" #inicio "> VOLTAR PARA O INICIO </a></li>
         </ul>
     </body>
 </html>
